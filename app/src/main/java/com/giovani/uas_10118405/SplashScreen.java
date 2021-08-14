@@ -7,7 +7,7 @@ import android.os.Bundle;
 public class SplashScreen extends Activity{
 
     //10118405 Giovani Octaviana 14 agustus 2021 13.33
-    
+
     @Override
     protected void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
