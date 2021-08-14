@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp"
+        app:srcCompat="@drawable/foto" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hi, my name is Giovani Octaviana from Indonesian Computer University. Student ID Number 10118405. Department of Informatics Engineering'18. For Your Information, this application was created to fulfill the assignment for the Final Semester Examination for Mobile Computing Applications."
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:textSize="38px"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="330dp"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:fontFamily="monospace"
+        android:gravity="center"
+        android:layout_marginTop="690dp"
+        android:text="Version 1.0.0"
+        android:textSize="12sp"
+        android:textColor="#FFFFFF"/>
+</FrameLayout>
